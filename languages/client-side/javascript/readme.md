@@ -6,7 +6,6 @@ The following style guide is taken from [here](https://github.com/spatie/javascr
 
 - [Spacing and Indentation in Functions and Control Statements](#spacing-and-indentation-in-functions-and-control-statements)
 - [Spacing and Indentation in Objects and Arrays](#spacing-and-indentation-in-objects-and-arrays)
-- [Line Length](#line-length)
 - [Quotes](#quotes)
 - [Multi Line Strings](#multi-line-strings)
 - [String Interpolation](#string-interpolation)
@@ -139,10 +138,6 @@ const people = [{ name: 'Sebastian' }, { name: 'Willem' }];
 const pairs = [ ['a', 'b'], ['c', 'd'] ];
 const people = [ { name: 'Sebastian' }, { name: 'Willem' } ];
 ```
-
-### Line Length
-
-Lines shouldn't be longer than 100 characters, and mustn't be longer than 120 characters (the former isn't enforced by ESLint). Comments mustn't be longer than 80 characters.
 
 ### Quotes
 
