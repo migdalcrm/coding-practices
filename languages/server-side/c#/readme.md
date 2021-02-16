@@ -2,7 +2,7 @@
 
 The following style guide is taken from [here](https://github.com/raywenderlich/c-sharp-style-guide), with some modifications.
 
-# Table of Contents
+# C# Style Guide
 
 - [Nomenclature](#nomenclature)
   + [Namespaces](#namespaces)
