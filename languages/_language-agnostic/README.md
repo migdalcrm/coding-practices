@@ -39,17 +39,17 @@ while (someTest)
 }
 ```
 
-### Indentation
+## Indentation
 
 Indentation should be done using **tab** — never spaces.  
 
-#### Blocks
+## Blocks
 
 Indentation for blocks uses **1 tab** for optimal readability.
 
-### Line Length
+## Line Length
 
-Lines should be no longer than **180** characters long.
+Lines should be no longer than **160** characters long.
 
 ## Return Statement
 
