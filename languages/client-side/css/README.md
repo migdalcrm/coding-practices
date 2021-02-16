@@ -1,4 +1,3 @@
-
 # Credit
 
 The following style guide is taken from [here](https://github.com/apdev/coding-guidelines), with some modifications.

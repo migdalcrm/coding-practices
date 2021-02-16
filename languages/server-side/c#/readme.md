@@ -1,8 +1,8 @@
-## Credit
+# Credit
 
-This style guide is based on [raywenderlich/c-sharp-style-guide](https://github.com/raywenderlich/c-sharp-style-guide) 
+The following style guide is taken from [here](https://github.com/raywenderlich/c-sharp-style-guide), with some modifications.
 
-## Table of Contents
+# Table of Contents
 
 - [Nomenclature](#nomenclature)
   + [Namespaces](#namespaces)

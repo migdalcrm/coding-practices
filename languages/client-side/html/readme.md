@@ -1,5 +1,4 @@
-
-Credit
+# Credit
 
 The following style guide is taken from [here](https://gist.github.com/ryansechrest/8693303), with some modifications.
 
