@@ -20,15 +20,12 @@ The following style guide is taken from [here](https://github.com/apdev/coding-g
 .gallery-item {}
 ```
 
-- that said, usually don't use IDs in CSS
+- that said, usually don't use IDs in CSS, prefer using classes.
 - put one space after `:` in property declarations
 - put one space before `{` in rule declarations
 - each declaration should appear on its own line for more accurate error reporting  
   *In instances where a rule set includes only one declaration, consider removing line breaks for readability and faster editing.*
 - end all declarations with a semi-colon
-- comma-separated property values should include a space after each comma
-- do not include spaces after commas within `rgb()`, `rgba()`, `hsl()`, `hsla()` or `rect()` values  
-  *This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space)*
 - lowercase all hex values, e.g., `#fff`
 - use shorthand hex values where available, e.g., `#fff` instead of `#ffffff`
 
@@ -81,7 +78,7 @@ Everything else takes place inside the component or without impacting the previo
 }
 ```
 
-- **"never" use `!important`** (sometimes if you work with external sources you just have to)
+- **avoid using `!important` except no other choice** (sometimes if you work with external sources you just have to)
 
 - when grouping selectors, keep individual selectors to a single line
 
