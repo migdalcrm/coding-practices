@@ -53,7 +53,7 @@ Lines should be no longer than **160** characters long.
 
 ## Return Statement
 
-`return` statement should appear once in a function, on its last line.
+`return` statement should appear once in a function, on its last line, except validation check/s immediately at the start of the function. 
 
 **AVOID:**
 
