@@ -53,7 +53,7 @@ When calling web services, the call should be done inside a service agent shared
 - Only exceptions should be logged (i.e., `EventLevel.Error`) - except for debug time.
 - Exceptions should be logged inside the catch block of each "code unit".
 - When debugging, other error levels may be logged, but they must be removed from the commited code once debug is done.
-
+- In exceptional cases which have high vulnerablity for busines mafunction - info debug should be approved by Master Reviewer(Ask Hananel). 
 ### Jobs Logs
 
 - Every job should write to a `bs_jobslog` record.
