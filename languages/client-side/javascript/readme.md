@@ -2,6 +2,21 @@
 
 The following style guide is taken from [here](https://github.com/spatie/javascript-styleguide/blob/master/README.md), with some modifications.
 
+
+# A note regarding indentations in this file
+
+Github has a [bug](https://github.com/isaacs/github/issues/170) which renders a single tab with 8 spaces, no matter what is configured.
+
+Here's an example:
+
+```javascript
+function test() {
+	return true;
+}
+```
+
+Please ignore this bug: a tab should always be 4 spaces long.
+
 # JavaScript Style Guide
 
 - [Spacing and Indentation in Functions and Control Statements](#spacing-and-indentation-in-functions-and-control-statements)
