@@ -25,8 +25,7 @@ All rules and guidelines in this document apply to HTML files.
 	1. [Line Indentation](#1-line-indentation)
 	2. [Direct Child Elements](#2-direct-child-elements)
 	3. [Block, List and Table Elements](#3-block-list-and-table-elements)
-	4. [Trailing Whitespace](#4-trailing-whitespace)
-	5. [Elements and Attributes](#5-elements-and-attributes)
+	4. [Elements and Attributes](#5-elements-and-attributes)
 4. [**Elements and Attributes**](#5-elements-and-attributes)
 	1. [Optional Open/Close Tags](#1-optional-openclose-tags)
 	2. [Attribute Values](#2-attribute-values)
@@ -148,9 +147,7 @@ This section outline various, general formatting rules related to whitespace and
 	* i.e. `<body>` `↵` `<h1></h1>` `↵` `</body>`, `<head>` `↵` `⇥` `...` `</head>`
 3. [**Block, list and table elements**](#3-block-list-and-table-elements) MUST start on a new line and their children MUST be indented
 	* i.e. `<div>` `↵` `⇥` `<h1>`, `<table>` `↵` `⇥` `<th>`
-4. [**Trailing whitespace**](#4-trailing-whitespace) MUST NOT be present
-	* i.e. no `<p></p>` `·` `·` `↵`
-5. [**Elements and attributes**](#5-elements-and-attributes) MUST be all lowercase
+4. [**Elements and attributes**](#5-elements-and-attributes) MUST be all lowercase
 	* e.g. `<a href="" title="">`, `<link rel="stylesheet" href="">`
 
 &#9650; [Table of Contents](#table-of-contents)
@@ -295,29 +292,7 @@ Block, list and table elements MUST start on a new line and their children MUST 
 
 <!-- ------------------------------ -->
 
-### 4. Trailing Whitespace
-
-Trailing whitespace MUST NOT be present.
-
-#### &#10006; Incorrect
-
-```html
-<p>This is a paragraph.</p>   
-```
-
-&#8627; Incorrect because there are spaces after `</p>`.
-
-#### &#10004; Correct
-
-```html
-<p>This is a paragraph.</p>
-```
-
-&#9650; [Formatting](#4-formatting)
-
-<!-- ------------------------------ -->
-
-### 5. Elements and Attributes
+### 4. Elements and Attributes
 
 Elements and attributes MUST be all lowercase.
 
