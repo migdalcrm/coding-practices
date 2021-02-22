@@ -12,7 +12,6 @@ The following style guide is taken from [here](https://github.com/spatie/javascr
 - [Semicolons](#semicolons)
 - [Variable Assignment](#variable-assignment)
 - [Variable Names](#variable-names)
-- [Comparisons](#comperisons)
 - [Function Keyword vs. Arrow Functions](#function-keyword-vs-arrow-functions)
 - [If IE11 Support Is Not Needed](#if-ie11-support-is-not-needed)
   - [Arrow Function Parameter Brackets](#arrow-function-parameter-brackets)
@@ -165,14 +164,27 @@ function getMessage() {
 }
 
 // Bad, don't use +
-function greet(name) {
-    return 'Hello ' + name + '!';
+function getMessage(name) {
+    return 'this is a very long message that should' +
+	    'be continued in a separate line';
 }
 ```
 
 ### String Interpolations
 
 Don't use `+`. Instead, use template literals (if IE11 support is not required) or use a string formatting implemention.
+
+```js
+// Good
+function greet(name) {
+    return `Hello {name}!`;
+}
+
+// Bad, don't use +
+function greet(name) {
+    return 'Hello ' + name + '!';
+}
+```
 
 ### Semicolons
 
@@ -184,7 +196,7 @@ Always.
 
 ### Variable Names
 
-Variable names generally shouldn't be abbreviated.
+Variable names shouldn't be abbreviated.
 
 ```js
 // Good
@@ -198,41 +210,6 @@ function saveUser(u) {
 }
 ```
 
-In single-line arrow functions, abbreviations are allowed to reduce noise if the context is clear enough. For example, if you're calling `map` of `forEach` on a collection of items, it's clear that the parameter is an item of a certain type, which can be derived from the collection's substantive variable name.
-
-```js
-// Good
-function saveUserSessions(userSessions) {
-    userSessions.forEach(s => saveUserSession(s));
-}
-
-// Ok, but pretty noisy.
-function saveUserSessions(userSessions) {
-    userSessions.forEach(userSession => saveUserSession(userSession));
-}
-```
-
-### Comparisons
-
-Always use a triple equal to do variable comparisons. If you're unsure of the type, cast it first.
-
-```js
-// Good
-const one = 1;
-const another = "1";
-
-if (one === parseInt(another)) {
-    // ...
-}
-
-// Bad
-const one = 1;
-const another = "1";
-
-if (one == another) {
-    // ...
-}
-```
 ##  If IE11 Support Is Not Needed
 
 ### Function Keyword vs. Arrow Functions
