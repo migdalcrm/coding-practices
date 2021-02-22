@@ -2,6 +2,15 @@
 
 The following style guide is taken from [here](https://gist.github.com/ryansechrest/8693303), with some modifications.
 
+# A note regarding tab size in this file
+
+```html
+<ul>
+	<li>Item number one</li>
+	<li>Item number two</li>
+</ul>
+```
+
 # HTML Style Guide
 
 All rules and guidelines in this document apply to HTML files.
