@@ -2,14 +2,19 @@
 
 The following style guide is taken from [here](https://gist.github.com/ryansechrest/8693303), with some modifications.
 
-# A note regarding tab size in this file
+# A note regarding indentations in this file
+
+Github has a [bug](https://github.com/isaacs/github/issues/170) which renders a single tab with 8 spaces, no matter what is configured.
+
+Here's an example:
 
 ```html
-<ul>
-	<li>Item number one</li>
-	<li>Item number two</li>
-</ul>
+<div>
+	<div>one tab indent</div>
+</div>
 ```
+
+Please ignore this bug.
 
 # HTML Style Guide
 
