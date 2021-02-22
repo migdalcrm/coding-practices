@@ -1,8 +1,3 @@
-pre {
-  -moz-tab-size: 4;
-  tab-size: 4;
-}
-
 # Credit
 
 The following style guide is taken from [here](https://gist.github.com/ryansechrest/8693303), with some modifications.
