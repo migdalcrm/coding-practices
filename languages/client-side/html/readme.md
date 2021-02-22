@@ -18,27 +18,21 @@ All rules and guidelines in this document apply to HTML files.
 
 1. [**Files**](#1-files)
 	[Filename](#filename)
-2. [**Document**](#2-document)
-	1. Doctype
-	2. Language
-	3. Character Encoding
-	4. Viewport
-	5. Head and Body
-3. [**Comments**](#3-comments)
+2. [**Comments**](#3-comments)
 	1. [Single-line Comments](#1-single-line-comments)
 	2. [Multi-line Comments](#2-multi-line-comments)
-4. [**Formatting**](#4-formatting)
+3. [**Formatting**](#4-formatting)
 	1. [Line Indentation](#1-line-indentation)
 	2. [Direct Child Elements](#2-direct-child-elements)
 	3. [Block, List and Table Elements](#3-block-list-and-table-elements)
 	4. [Trailing Whitespace](#4-trailing-whitespace)
 	5. [Elements and Attributes](#5-elements-and-attributes)
-5. [**Elements and Attributes**](#5-elements-and-attributes)
+4. [**Elements and Attributes**](#5-elements-and-attributes)
 	1. [Optional Open/Close Tags](#1-optional-openclose-tags)
 	2. [Attribute Values](#2-attribute-values)
 	3. [Attribute Booleans](#3-attribute-booleans)
 	4. [Type Attribute](#4-type-and-language-attribute)
-6. [**Best Practices**](#6-best-practices)
+5. [**Best Practices**](#6-best-practices)
 	1. [Structures, Styles and Scripts](#1-structures-styles-and-scripts)
 	2. [Valid HTML](#2-valid-html)
 	3. [Semantic HTML](#3-semantic-html)
@@ -61,47 +55,7 @@ This section describes the format and naming convention of HTML files.
 
 <!-- ---------------------------------------------------------------------- -->
 
-## 2. Document
-
-This section showcases the main elements required in a complete HTML file.
-
-1. **Doctype** MUST be specified and SHOULD be HTML5
-	* e.g. `<!DOCTYPE html>`
-2. **Language** MUST be defined in the `html` element
-	* e.g. `<html lang="en">`
-3. **Character encoding** MUST be defined as early as possible
-	* e.g. `<meta charset="utf-8">`
-4. **Viewport** MUST be included
-	* e.g. `<meta name="viewport" content="width=device-width, user-scalable=no">`
-5. **Head and body** elements MUST be included
-	* e.g. `<head></head><body></body>`
-
-&#9650; [Table of Contents](#table-of-contents)
-
-<!-- ------------------------------ -->
-
-#### Example
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Welcome</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-</head>
-<body>
-<h1>Welcome</h1>
-<p>This is a skeleton document.</p>
-</body>
-</html>
-```
-
-&#9650; [Document](#2-document)
-
-<!-- ---------------------------------------------------------------------- -->
-
-## 3. Comments
+## 2. Comments
 
 This section describes how comments should be formatted and used.
 
@@ -184,7 +138,7 @@ that spans multiple lines
 
 <!-- ---------------------------------------------------------------------- -->
 
-## 4. Formatting
+## 3. Formatting
 
 This section outline various, general formatting rules related to whitespace and text.
 
@@ -389,7 +343,7 @@ Elements and attributes MUST be all lowercase.
 
 <!-- ---------------------------------------------------------------------- -->
 
-## 5. Elements and Attributes
+## 4. Elements and Attributes
 
 This section addresses how to utilize elements and attributes.
 
@@ -520,7 +474,7 @@ Type attribute MUST be included on `script` and `link` tags.
 
 <!-- ---------------------------------------------------------------------- -->
 
-## 6. Best Practices
+## 5. Best Practices
 
 1. [**Structures, styles and scripts**](#1-structures-styles-and-scripts) MUST be separated from each other
 	* e.g. `<a class="button" data-track="pageview">Read More</a>`
