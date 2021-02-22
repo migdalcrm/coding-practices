@@ -14,7 +14,7 @@ Here's an example:
 </div>
 ```
 
-Please ignore this bug.
+Please ignore this bug: a tab should always be 4 spaces long.
 
 # HTML Style Guide
 
