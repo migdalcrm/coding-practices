@@ -230,7 +230,7 @@ Example:
 
 ```java
 Contact contact = new Contact(
-	RecordTypeId = CONTACT_RECORDTYPE_ID,
+    RecordTypeId = CONTACT_RECORDTYPE_ID,
     FirstName = firstName,
     LastName = surname,
     MailingCountry = DEFAULT_COUNTRY
