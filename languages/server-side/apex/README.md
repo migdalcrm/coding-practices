@@ -43,30 +43,30 @@ All fields are written **camelCase**.
 
 For example:
 
-```java
+```apex
 public class MyClass {
-    public Integer publicField;
+    public integer publicField;
 }
 ```
 
 **AVOID:**
 
-```java
-private Integer _myPrivateVariable
+```apex
+private integer _myPrivateVariable
 ```
 
 **PREFER:**
 
-```java
-private Integer myPrivateVariable
+```apex
+private integer myPrivateVariable
 ```
 
 ### Properties
 
 All properties are written in **camelCase**. For example:
 
-```java
-public Integer pageNumber {
+```apex
+public integer pageNumber {
     get { return pageNumber; }
     set { pageNumber = value; }
 }
@@ -78,13 +78,13 @@ Parameters are written in **camelCase**.
 
 **AVOID:**
 
-```java
+```apex
 void doSomething(Vector3 Location)
 ```
 
 **PREFER:**
 
-```java
+```apex
 void doSomething(Vector3 location)
 ```
 
@@ -110,9 +110,9 @@ String username, twitterHandle;
 
 **PREFER:**
 
-```java
-String username;
-String twitterHandle;
+```apex
+string username;
+string twitterHandle;
 ```
 
 ### Classes
@@ -125,13 +125,13 @@ All interfaces should be prefaced with the letter **I**.
 
 **AVOID:**
 
-```java
+```apex
 RadialSlider
 ```
 
 **PREFER:**
 
-```java
+```apex
 IRadialSlider
 ```
 
@@ -142,7 +142,7 @@ All braces are written in the Java convention:
 Open braces should have a space before them and not a newline.  The matching close brace should line up with the start of the opening brace's line
 
 **AVOID:**
-```java
+```apex
 class MyClass
 {
     void DoSomething()
@@ -160,7 +160,7 @@ class MyClass
 ```
 
 **PREFER:**
-```java
+```apex
 class MyClass {
     void doSomething() {
         if (someTest) {
@@ -178,7 +178,7 @@ irrespective of the number of lines required.
 
 **AVOID:**
 
-```java
+```apex
 if (someTest)
     doSomething();  
 
@@ -187,7 +187,7 @@ if (someTest) doSomethingElse();
 
 **PREFER:**
 
-```java
+```apex
 if (someTest) {
     doSomething();
 }  
@@ -201,7 +201,7 @@ Switch-statements come with `default` case by default (heh). If the `default` ca
 
 **AVOID:**  
   
-```java
+```apex
 switch (variable) {
     case 1:
         break;
@@ -214,7 +214,7 @@ switch (variable) {
 
 **PREFER:**  
   
-```java
+```apex
 switch (variable) {
     case 1:
         break;
@@ -228,7 +228,7 @@ When creating an SObject, generally prefer the Apex-specific syntax wherein all 
 
 Example:
 
-```java
+```apex
 Contact contact = new Contact(
     RecordTypeId = CONTACT_RECORDTYPE_ID,
     FirstName = firstName,
@@ -250,7 +250,7 @@ Contact contact = new Contact(
 Example:
 
 **Avoid:**
-```java
+```apex
 String typeToSelect = 'abcde';
 List<Contact> contacts = [SELECT Id, FirstName, LastName, Phone, Email, MailingCity, 
                           (SELECT Id, ActivityDate, Origin, Type, WhatId, What.Name
@@ -261,7 +261,7 @@ List<Contact> contacts = [SELECT Id, FirstName, LastName, Phone, Email, MailingC
 ```
 
 **Prefer:**
-```java
+```apex
 String typeToSelect = 'abcde';
 List<Contact> contacts = [
   SELECT Id, FirstName, LastName, Phone, Email, MailingCity, (
