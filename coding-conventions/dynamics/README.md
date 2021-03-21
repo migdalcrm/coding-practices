@@ -2,9 +2,7 @@
 
 ## Project Structure
 
-The following are non-mandatory recommendatios.
-
-### Folder Structure
+### Folders Structure
 
 Plugins dlls, custom actions dlls, job apps and javascript scripts should be placed in folders named by business entities.
 
