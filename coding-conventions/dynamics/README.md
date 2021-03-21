@@ -63,6 +63,7 @@ If some code needs to be reused between different dlls, Shared Projects or Linke
 -	CRM proxy classes (late bound generated code).
 -	Custom Action's request and response (e.g., when the custom action is called from both plugin and job).
 
+---
 
 ## try-catch block
 
