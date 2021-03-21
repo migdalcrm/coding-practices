@@ -1,4 +1,4 @@
-# Coding Patterns
+# Dynamics Coding Conventions
 
 ## Project Structure
 
