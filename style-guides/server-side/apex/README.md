@@ -89,7 +89,21 @@ void doSomething(Vector3 location)
 ```
 
 Single character values are to be avoided except for temporary looping variables.
+For example:
 
+
+
+**AVOID!!!:**
+
+```apex
+Lead l;
+```
+
+**PREFER:**
+
+```apex
+Lead leadToUpdate;
+```
 
 
 ## Declarations
