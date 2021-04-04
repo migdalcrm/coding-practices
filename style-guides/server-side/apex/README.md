@@ -45,20 +45,20 @@ For example:
 
 ```apex
 public class MyClass {
-    public integer publicField;
+    public Integer publicField;
 }
 ```
 
 **AVOID:**
 
 ```apex
-private integer _myPrivateVariable
+private Integer _myPrivateVariable
 ```
 
 **PREFER:**
 
 ```apex
-private integer myPrivateVariable
+private Integer myPrivateVariable
 ```
 
 ### Properties
@@ -66,7 +66,7 @@ private integer myPrivateVariable
 All properties are written in **camelCase**. For example:
 
 ```apex
-public integer pageNumber {
+public Integer pageNumber {
     get { return pageNumber; }
     set { pageNumber = value; }
 }
@@ -88,12 +88,10 @@ void doSomething(Vector3 Location)
 void doSomething(Vector3 location)
 ```
 
-Single character values are to be avoided except for temporary looping variables.
+Single character values are to be avoided.
 For example:
 
-
-
-**AVOID!!!:**
+**AVOID:**
 
 ```apex
 Lead l;
@@ -125,8 +123,8 @@ String username, twitterHandle;
 **PREFER:**
 
 ```apex
-string username;
-string twitterHandle;
+String username;
+String twitterHandle;
 ```
 
 ### Classes
@@ -153,7 +151,7 @@ IRadialSlider
 ## Brace Style
 
 All braces are written in the Java convention:
-Open braces should have a space before them and not a newline.  The matching close brace should line up with the start of the opening brace's line
+Open braces should have a space before them and not a newline. The matching close brace should line up with the start of the opening brace's line
 
 **AVOID:**
 ```apex
