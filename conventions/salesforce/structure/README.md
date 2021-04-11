@@ -1,6 +1,5 @@
-# Code as Single Source of Knowledge
-Code should be our single source of knowledge. Therefore, Implement all business logic in code. 
-Do not use processes, workflow rules, validation rules, etc, as it makes business logic scattered in multiple places and therefore make it hard to reason about.  
+## Calling Web Services
+Calling web services should be done through a service agent class (this is called "Service Layer", see more [here](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl?trailmix_creator_id=abrarsheikhsony&trailmix_slug=oop-in-apex)).
 
 # Naming Conventions
 
@@ -112,7 +111,7 @@ Do not use processes, workflow rules, validation rules, etc, as it makes busines
 	<tr>
 		<td>Lightning Component</td>
 		<td>PascalCase without Underscores</td>
-		<td>processRecordsComponent</td>
+		<td>ProcessRecordsComponent</td>
 	</tr>
 	<tr>
 		<td>Lightning Token</td>
