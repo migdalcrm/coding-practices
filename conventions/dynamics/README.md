@@ -1,3 +1,11 @@
+# Names Conventions
+Give only meaningful names to your objects, variable, methods, classes…
+https://docs.microsoft.com/en-us/dynamicsax-2012/developer/naming-conventions
+
+# Readable Code
+How readable the code is: for yourself and everyone else who will later read the code. Readable code starts with code that you find easy to read.
+https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
+
 # try-catch block
 
 Only a single try-catch block should be used for each "code unit". 
